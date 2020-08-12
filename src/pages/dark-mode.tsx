@@ -8,7 +8,7 @@ export default function DarkMode() {
         <div style={{backgroundColor: hasDarkBackground ? 'black' : 'white'}}>
             <button onClick={() => setHasDarkBackground(!hasDarkBackground)}>Has dark
                 background? {hasDarkBackground ? 'true' : 'false'}</button>
-            <FastCommentsCommentWidget tenantId="nYrnfYEv" hasDarkBackground={hasDarkBackground}/>
+            <FastCommentsCommentWidget tenantId="demo" hasDarkBackground={hasDarkBackground}/>
         </div>
     )
 }
