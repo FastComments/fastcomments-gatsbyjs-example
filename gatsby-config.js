@@ -5,6 +5,13 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+    /* Your site config here */
+    plugins: [
+        {
+            resolve: 'gatsby-v2-plugin-page-transitions',
+            options: {
+                transitionTime: 500
+            }
+        }
+    ],
 }

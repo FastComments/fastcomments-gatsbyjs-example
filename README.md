@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -28,3 +28,25 @@ This project is the hello-world boilerplate with FastComments setup.
     ```
     return <FastCommentsCommentWidget tenantId="demo" />;
     ```
+
+## Examples
+
+1. **Simple Example**
+
+    http://localhost:8000/
+    
+    Code: [src/pages/index.tsx](src/pages/index.tsx).
+
+
+2. **Dark Mode Toggle**
+
+    http://localhost:8000/dark-mode
+    
+    Code: [src/pages/dark-mode.tsx](src/pages/dark-mode.tsx).
+
+
+2. **Page Transitions**
+
+    http://localhost:8000/page-transition-test-start
+    
+    Code: [src/pages/page-transition-test-start.tsx](src/pages/page-transition-test-start.tsx).
