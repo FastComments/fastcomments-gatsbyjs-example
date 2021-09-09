@@ -33,9 +33,9 @@ This project is the hello-world boilerplate with FastComments setup.
 
 1. **Simple Example**
 
-    http://localhost:8000/
+    http://localhost:8000/commenting
     
-    Code: [src/pages/index.tsx](src/pages/index.tsx).
+    Code: [src/pages/commenting.tsx](src/pages/commenting.tsx).
 
 
 2. **Dark Mode Toggle**
@@ -50,3 +50,5 @@ This project is the hello-world boilerplate with FastComments setup.
     http://localhost:8000/page-transition-test-start
     
     Code: [src/pages/page-transition-test-start.tsx](src/pages/page-transition-test-start.tsx).
+
+See more by going to http://localhost:8000

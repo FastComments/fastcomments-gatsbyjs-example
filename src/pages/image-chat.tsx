@@ -4,8 +4,11 @@ import { FastCommentsImageChatWidget } from 'fastcomments-react'; // Here we inc
 
 export default function Home() {
   const contentRef = useRef(null);
+  const wrapperStyle = {
+      position: 'relative'
+  }
   return (
-    <div>
+    <div style={wrapperStyle}>
       <img ref={contentRef} src="https://fastcomments.com/images/image-chat-demo-1.jpg" alt="Demo Image"/>
       <FastCommentsImageChatWidget tenantId="demo" targetRef={contentRef} />
     </div>
