@@ -1,5 +1,4 @@
-// noinspection ES6UnusedImports
-import React from "react"
+import * as React from "react"
 import { FastCommentsCommentWidget } from 'fastcomments-react'; // Here we include the FastComments library.
 
 export default function Home() {
