@@ -2,7 +2,7 @@
   "name": "fastcomments-gatsbyjs-example",
   "private": true,
   "description": "Examples of using FastComments with Gatsby.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
