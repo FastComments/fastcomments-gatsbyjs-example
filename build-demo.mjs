@@ -15,7 +15,7 @@ const sh = (cmd, cwd = ROOT, env = {}) => {
 };
 
 sh('npm ci');
-sh('npx gatsby build --prefix-paths', ROOT, { BUILD_DEMO: '1' });
+sh('./node_modules/.bin/gatsby build --prefix-paths', ROOT, { BUILD_DEMO: '1' });
 
 rmSync(OUT, { recursive: true, force: true });
 renameSync(resolve(ROOT, 'public'), OUT);
