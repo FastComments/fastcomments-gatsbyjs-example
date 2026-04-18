@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-    /* Your site config here */
+    pathPrefix: process.env.BUILD_DEMO === '1' ? '/commenting-system-for-gatsby' : undefined,
     plugins: [
         {
             resolve: 'gatsby-v2-plugin-page-transitions',
