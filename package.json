@@ -17,7 +17,8 @@
     "gatsby": "^4.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "fastcomments-react": "^3.0.0",
+    "fastcomments-react": "^4.1.2",
+    "lodash": "^4.17.21",
     "gatsby-v2-plugin-page-transitions": "^1.0.0"
   },
   "devDependencies": {
